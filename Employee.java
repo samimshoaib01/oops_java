@@ -37,9 +37,7 @@ Manager(String name,int employeeID, double salary,int teamSize)
 @Override
 displayDetails()
 	{
-          System.out.println("Name :"+name);
-          System.out.println("Employee Id :"+employeeID);
-          System.out.println("Salary :"+salary);
+          super.displayDetails();
           System.out.println("Team size :"+teamSize);
           
 	}
@@ -60,21 +58,16 @@ class Director extends Manager
 
 displayDetails()
 	{
-          System.out.println("Name :"+name);
-          System.out.println("Employee Id :"+employeeID);
-          System.out.println("Salary :"+salary);
-          System.out.println("Team size :"+teamSize);
+          super.displayDetails();
           System.out.println("Budget :"+budget);
           
 	}
-	
-
-
-
 
 }
 
-int
+public class Main{
+
+}
 
 
 
